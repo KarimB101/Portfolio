@@ -55,34 +55,6 @@ header {
     margin-bottom: 45px;
   }
   
-  .hero-banner {
-    background-color: var(--tertiary);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
-    min-height: 10vh;
-    color: var(--light);
-    padding: 2% 6%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
-  }
-  
-  .hero-banner div {
-    flex: 0 0 90%;
-  }
-  
-  .hero-banner h2 {
-    background-color:aqua;
-    color: var(--tertiary);
-    margin: 0;
-    padding: 5px 10px;
-    font-size: 2.3rem;
-    line-height: 1.2;
-    display: inline;
-  }
   
   .page-wrapper {
     max-width: 20%;
