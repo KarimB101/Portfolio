@@ -93,7 +93,7 @@ header {
     margin-bottom: 40px;
     font-size: larger;
     align-content: center;
-    line-height: 50pt;
+    line-height: 40pt;
   }
   
   .flex-container {
@@ -122,8 +122,7 @@ header {
   
   /* feature first portfolio item */
   .flex-item:first-child {
-      min-height:100px;
-      flex-basis:after 
+      min-height:100%;
   }
   
   .flex-item:hover {
@@ -133,6 +132,7 @@ header {
   .flex-item div {
     background-color: var(--secondary);
     padding: 8px 10px;
+  
   }
   
   .flex-item h3 {
